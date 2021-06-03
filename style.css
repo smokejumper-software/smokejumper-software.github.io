@@ -1,0 +1,299 @@
+/* Stylesheet for philipaconrad.github.io
+*/
+
+/* Load the fonts! */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #0f1012;
+    line-height: 24px;
+    text-rendering: optimizeLegibility;
+    background-color: #fafafa;/*#5995da;*/
+}
+
+article {
+    font-family: Lato Light, sans-serif;
+    font-size: 18px;
+    background-color: #ffffff;
+    padding: 5px 40px 20px 40px;
+    margin: 0px auto 0px;
+    text-align: justify;
+    text-justify: inter-word;
+    /*border-radius: 5px;*/
+
+    -moz-box-shadow:    3px 3px 5px 3px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 3px #ccc;
+    box-shadow:         3px 3px 5px 3px #ccc;
+}
+
+footer {
+
+    background-color: #757575; /* grey darken-1 */
+    width: 800px;
+    margin: 0px auto 0px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+
+    -moz-box-shadow:    3px 3px 5px 3px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 3px #ccc;
+    box-shadow:         3px 3px 5px 3px #ccc;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+blockquote {
+    margin-left: 0px;
+    padding-left: 15px;
+    border-left: solid 4px #ccc;
+    color: #555;
+}
+
+hr {
+    display: block;
+    width: 75px;
+    margin: 20px auto 20px;
+    clear: both;
+}
+
+/* Typography! */
+h1 {
+    font-size: 3em;
+    line-height: 110%;
+    margin: 1.0rem 0 1.0rem 0;
+}
+
+h1.title {
+    text-align: center;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 1.8em;
+    line-height: 110%;
+    margin: 1.78rem 0 1.424rem 0;
+}
+
+h2.underline {
+    border-bottom: 1px solid #ccc;
+}
+
+h2.callout {
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 18px #444;
+}
+
+h3 {
+    font-size: 1.4em;
+    line-height: 110%;
+    margin: 1.46rem 0 1.168rem 0;
+}
+
+h4 {
+    font-size: 1.2em;
+    line-height: 110%;
+    margin: 1.14rem 0 .912rem 0;
+}
+
+h5 {
+    font-size: 0.95em;
+    line-height: 110%;
+    margin: .82rem 0 .656rem 0;
+}
+
+h6 {
+    font-size: 0.8em;
+    line-height: 110%;
+    margin: .5rem 0 .4rem 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+p.author, p.date {
+    margin-bottom: 15px;
+}
+
+p time {
+    margin-right: 15px;
+}
+
+/* Lists! */
+ul {
+    list-style-type: circle;
+    margin-left: 40px;
+}
+
+li {
+    margin-bottom: 5px;
+
+}
+
+/* Links! */
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+a:focus, a:hover {
+    color: #c62828;
+    text-decoration: underline;
+}
+
+a, a:visited {
+    color: #eb2344;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* Code formatting! */
+pre {
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+pre code {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow: scroll;
+    z-index: 15;
+}
+
+code {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+/* Images! */
+.figure img {
+    display: block;
+    margin: 0 auto;
+}
+p.caption, figcaption {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+/* Nav display
+   Cite: https://www.w3schools.com/css/css_navbar.asp
+*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #f44336;
+    border-bottom: 2px solid #aaa;
+}
+
+nav ul li {
+    float: left;
+    margin-bottom: 0px;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+}
+
+nav li a:visited {
+    color: #ffffff;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #c62828;
+}
+
+/* Flexbox grid */
+
+.grid {
+  display: flex;
+}
+
+.grid-cell {
+  flex: 1;
+}
+
+/* Slider */
+
+.slider {
+  width: 100%;
+}
+
+.monospace {
+  font-family: Consolas, monospace;
+}
+
+.hero-text {
+  font-size: 22px;
+  margin: auto 60px 30px 60px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  nav li {
+    width: 100%;
+  }
+  article {
+    width: 100%;
+    -moz-box-shadow:    none;
+    -webkit-box-shadow: none;
+    box-shadow:         none;
+    padding: 5px 20px 20px 20px;
+  }
+  .hero-text {
+    margin: auto 20px auto 20px;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  article {
+    width: 100%;
+    padding: 5px 20px 20px 20px;
+  }
+  .hero-text {
+    margin: auto 20px auto 20px;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  nav {
+    width: 800px;
+    margin: 0 auto;
+  } 
+  article {
+    width: 800px;
+  }
+}
