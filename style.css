@@ -266,6 +266,7 @@ nav li a:hover {
   }
   article {
     width: 100%;
+    text-justify: inter-character;
     -moz-box-shadow:    none;
     -webkit-box-shadow: none;
     box-shadow:         none;
@@ -284,6 +285,7 @@ nav li a:hover {
   article {
     width: 100%;
     padding: 5px 20px 20px 20px;
+    text-justify: inter-character;
   }
   footer {
     width: 100%;
